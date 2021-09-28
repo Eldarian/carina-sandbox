@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class SeleniumEasyTest implements IAbstractTest {
+public class SimpleFormTest implements IAbstractTest {
     @BeforeClass
     public void replaceURL() {
         R.CONFIG.put("url", "https://www.seleniumeasy.com/test/basic-first-form-demo.html");
